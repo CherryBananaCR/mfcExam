@@ -183,6 +183,7 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CProcess.h" />
     <ClInclude Include="DlgImage.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="gPrj.h" />
@@ -192,6 +193,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CProcess.cpp" />
     <ClCompile Include="DlgImage.cpp" />
     <ClCompile Include="gPrj.cpp" />
     <ClCompile Include="gPrjDlg.cpp" />

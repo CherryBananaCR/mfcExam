@@ -12,6 +12,8 @@
 #define IDC_BTN_DLG                     1000
 #define IDC_BTN_UP_PARENT               1000
 #define IDC_BTN_TEST                    1000
+#define IDC_BTN_TEST2                   1001
+#define IDC_BTN_PROCESS                 1001
 
 // Next default values for new objects
 // 

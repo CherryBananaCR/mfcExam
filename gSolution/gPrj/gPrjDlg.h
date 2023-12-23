@@ -2,6 +2,8 @@
 // gPrjDlg.h: 헤더 파일
 //
 #include "DlgImage.h"
+#include "CProcess.h"
+#include <chrono>
 #include <iostream>
 
 #pragma once
@@ -41,4 +43,5 @@ public:
 
 	void callFunc(int n);
 	afx_msg void OnBnClickedBtnTest();
+	afx_msg void OnBnClickedBtnProcess();
 };
