@@ -11,6 +11,7 @@
 #define IDC_BUTTON1                     1000
 #define IDC_BTN_DLG                     1000
 #define IDC_BTN_UP_PARENT               1000
+#define IDC_BTN_TEST                    1000
 
 // Next default values for new objects
 // 
