@@ -5,7 +5,7 @@
 #include <iostream>
 
 #pragma once
-
+#define MAX_POINT 100
 
 // CgPrjDlg 대화 상자
 class CgPrjDlg : public CDialogEx

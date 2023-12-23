@@ -1,6 +1,9 @@
 ﻿#pragma once
 #include "afxdialogex.h"
 
+#define COLOR_RED RGB(0xff, 0, 0)
+#define COLOR_GREEN RGB(0x00, 0xff, 0x00)
+#define MAX_POINT 100
 
 // DlgImage 대화 상자
 
@@ -29,7 +32,7 @@ public:
 	virtual BOOL OnInitDialog();
 	afx_msg void OnPaint();
 	int m_nDataCount = 0;
-	CPoint m_ptData[100];
+	CPoint m_ptData[MAX_POINT];
 
 private:
 	void InitImage();
